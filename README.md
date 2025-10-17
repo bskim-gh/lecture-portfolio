@@ -74,7 +74,6 @@
 ### MySQL 과정
 - **총 학습 기간**: 2-4주 (초급 과정)
 - **커리큘럼**: SELECT 기초 → 고급 쿼리 기법
-- **샘플 DB**: cardbdemo
 - **상세 내용**: [Mysql/README.md](Mysql/README.md) 참고
 
 ## 📞 연락처
