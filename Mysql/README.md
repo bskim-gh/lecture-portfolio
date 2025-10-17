@@ -4,7 +4,7 @@
 
 본 교육 자료는 MySQL/MariaDB 데이터베이스의 기본 쿼리 문법과 데이터 조작 방법을 다루는 실무 중심 교육 과정입니다. SQL 초보자와 비전공자도 쉽게 학습할 수 있도록 단계별로 구성되었으며, 실제 업무에서 자주 사용하는 SELECT 쿼리를 중심으로 구성되었습니다.
 
-**총 10개 섹션**으로 구성된 체계적인 MySQL 학습 커리큘럼 (초급 과정, 약 2-4주)
+**총 11개 섹션**으로 구성된 체계적인 MySQL 학습 커리큘럼 (초급 과정, 약 2-4주)
 
 ---
 
@@ -206,6 +206,52 @@ SELECT customerNumber, customerName
 FROM customers
 ORDER BY customerName
 LIMIT 10, 10;
+```
+
+---
+
+### 📌 Section 11: 스키마 및 테이블 구조 (Schema)
+
+**11_Schema.md - MySQL 스키마 이해**
+- 데이터베이스 스키마 개념
+- 테이블 생성 (CREATE TABLE)
+- 컬럼 데이터 타입
+  - 숫자형 (INT, DECIMAL, FLOAT, DOUBLE)
+  - 문자형 (CHAR, VARCHAR, TEXT)
+  - 날짜/시간형 (DATE, TIME, DATETIME, TIMESTAMP)
+- 키(Key) 유형
+  - PRIMARY KEY (기본 키)
+  - FOREIGN KEY (외래 키)
+  - UNIQUE KEY (고유 키)
+  - INDEX (인덱스)
+- 테이블 관계 (Relationships)
+  - 일대다 (One-to-Many)
+  - 다대다 (Many-to-Many)
+  - 일대일 (One-to-One)
+- CASCADE 옵션
+  - ON DELETE CASCADE
+  - ON DELETE SET NULL
+  - ON DELETE RESTRICT
+  - ON UPDATE CASCADE
+- 스키마 설계 모범 사례
+
+**주요 학습 내용:**
+```sql
+-- 테이블 생성 및 관계 정의
+CREATE TABLE employees (
+    employeeNumber INT NOT NULL,
+    lastName VARCHAR(50) NOT NULL,
+    officeCode VARCHAR(10) NOT NULL,
+    reportsTo INT NULL,
+    PRIMARY KEY (employeeNumber),
+    FOREIGN KEY (officeCode) 
+        REFERENCES offices(officeCode)
+        ON DELETE RESTRICT
+        ON UPDATE CASCADE,
+    FOREIGN KEY (reportsTo) 
+        REFERENCES employees(employeeNumber)
+        ON DELETE SET NULL
+);
 ```
 
 ---
