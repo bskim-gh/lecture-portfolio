@@ -64,40 +64,6 @@
 - **Pandas, NumPy** - 데이터 분석
 - **Matplotlib, Plotly** - 데이터 시각화
 
-## 📁 프로젝트 구조
-```
-lecture-portfolio/
-├── Python/
-│   ├── python_개념/          # Python 기초 개념 강의
-│   ├── Python_실습/          # Python 실습 강의
-│   ├── Python_객체지향/      # 객체지향 프로그래밍 강의
-│   ├── Python_웹크롤링/      # 웹 크롤링 강의
-│   ├── Python_streamlit/     # Streamlit 웹 앱 강의
-│   ├── Python_비개발부서용/  # 비개발 부서용 Python 강의
-│   └── README.md            # Python 종합 가이드
-├── Mysql/
-│   ├── 01Select.md          # SELECT 문
-│   ├── 02OrderBy.md         # ORDER BY 정렬
-│   ├── 03Where.md           # WHERE 조건
-│   ├── 04Distinct.md        # DISTINCT 중복 제거
-│   ├── 05AND.md             # AND 연산자
-│   ├── 06OR.md              # OR 연산자
-│   ├── 07In.md              # IN 연산자
-│   ├── 08Between.md         # BETWEEN 범위
-│   ├── 09Like.md            # LIKE 패턴 매칭
-│   ├── 10Limit.md           # LIMIT 결과 제한
-│   ├── cardbdemo.sql        # 샘플 데이터베이스
-│   ├── images/              # 테이블 구조 이미지
-│   └── README.md            # MySQL 종합 가이드
-└── README.md                # 프로젝트 메인 README
-```
-
-## 🎓 교육 철학
-- **실무 중심**: 이론보다는 실제 업무에 적용 가능한 내용 중심
-- **단계별 학습**: 기초부터 고급까지 체계적인 커리큘럼
-- **실습 위주**: 이론 학습 후 바로 실습할 수 있는 환경 제공
-- **맞춤형 교육**: 학습자 수준에 맞는 맞춤형 교육 제공
-
 ## 📊 교육 과정별 세부 정보
 
 ### Python 과정 (47개 파일)
