@@ -16,3 +16,6 @@ if uploaded:
     
     # 상위 5개 행 미리보기
     st.dataframe(df.head())
+
+    # 상위 20개 행 미리보기
+    st.dataframe(df.head(20))
