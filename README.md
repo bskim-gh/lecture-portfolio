@@ -66,41 +66,21 @@
 
 ## 📊 교육 과정별 세부 정보
 
-### Python 과정 (47개 파일)
+### Python 과정
 - **총 학습 기간**: 6-9개월 (초급 → 고급)
 - **커리큘럼**: Level 1(기초) → Level 10(실전 프로젝트)
 - **상세 내용**: [Python/README.md](Python/README.md) 참고
 
-### MySQL 과정 (10개 섹션)
+### MySQL 과정
 - **총 학습 기간**: 2-4주 (초급 과정)
 - **커리큘럼**: SELECT 기초 → 고급 쿼리 기법
-- **샘플 DB**: cardbdemo (7개 테이블, 4,000+ 라인)
+- **샘플 DB**: cardbdemo
 - **상세 내용**: [Mysql/README.md](Mysql/README.md) 참고
-
-## 🚀 빠른 시작
-
-### Python 학습 시작하기
-```bash
-# Python 폴더로 이동
-cd Python
-
-# README.md에서 학습 로드맵 확인
-# 각 폴더의 교안 파일(.py, .md)로 학습 시작
-```
-
-### MySQL 학습 시작하기
-```bash
-# Mysql 폴더로 이동
-cd Mysql
-
-# 샘플 데이터베이스 설치
-mysql -u root -p < cardbdemo.sql
-
-# 01Select.md부터 순차적으로 학습
-```
 
 ## 📞 연락처
 강의 문의 및 상담이 필요하시면 언제든지 연락주세요.
+
+**Email**: skynom1324@naver.com
 
 ---
 *"코딩은 생각을 현실로 만드는 도구입니다. 함께 배워보세요!"* - 김보선
