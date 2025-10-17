@@ -11,6 +11,7 @@
 - **웹 크롤링**
 - **Streamlit 웹 애플리케이션 개발**
 - **비개발 부서를 위한 Python 교육**
+- **MySQL/MariaDB 데이터베이스**
 
 ## 📖 강의 커리큘럼
 
@@ -44,8 +45,20 @@
 - **내용**: 업무 자동화, 데이터 분석 기초
 - **파일**: `Python/Python_비개발부서용/`
 
+### 7. MySQL/MariaDB 데이터베이스
+- **대상**: 데이터베이스 입문자
+- **내용**: SQL 기본 쿼리(SELECT, WHERE, JOIN 등), 데이터 조회 및 조작
+- **파일**: `Mysql/`
+- **특징**: 
+  - 10개 섹션으로 구성된 체계적인 SQL 학습
+  - 샘플 데이터베이스(cardbdemo.sql) 포함
+  - Python pymysql 연결 템플릿 제공
+  - MySQL과 MariaDB 비교 설명
+
 ## 🛠️ 주요 기술 스택
 - **Python 3.x**
+- **MySQL/MariaDB** - 관계형 데이터베이스
+- **pymysql** - Python 데이터베이스 연결
 - **Streamlit** - 웹 애플리케이션 개발
 - **BeautifulSoup, Selenium** - 웹 크롤링
 - **Pandas, NumPy** - 데이터 분석
@@ -60,8 +73,23 @@ lecture-portfolio/
 │   ├── Python_객체지향/      # 객체지향 프로그래밍 강의
 │   ├── Python_웹크롤링/      # 웹 크롤링 강의
 │   ├── Python_streamlit/     # Streamlit 웹 앱 강의
-│   └── Python_비개발부서용/  # 비개발 부서용 Python 강의
-└── README.md
+│   ├── Python_비개발부서용/  # 비개발 부서용 Python 강의
+│   └── README.md            # Python 종합 가이드
+├── Mysql/
+│   ├── 01Select.md          # SELECT 문
+│   ├── 02OrderBy.md         # ORDER BY 정렬
+│   ├── 03Where.md           # WHERE 조건
+│   ├── 04Distinct.md        # DISTINCT 중복 제거
+│   ├── 05AND.md             # AND 연산자
+│   ├── 06OR.md              # OR 연산자
+│   ├── 07In.md              # IN 연산자
+│   ├── 08Between.md         # BETWEEN 범위
+│   ├── 09Like.md            # LIKE 패턴 매칭
+│   ├── 10Limit.md           # LIMIT 결과 제한
+│   ├── cardbdemo.sql        # 샘플 데이터베이스
+│   ├── images/              # 테이블 구조 이미지
+│   └── README.md            # MySQL 종합 가이드
+└── README.md                # 프로젝트 메인 README
 ```
 
 ## 🎓 교육 철학
@@ -69,6 +97,41 @@ lecture-portfolio/
 - **단계별 학습**: 기초부터 고급까지 체계적인 커리큘럼
 - **실습 위주**: 이론 학습 후 바로 실습할 수 있는 환경 제공
 - **맞춤형 교육**: 학습자 수준에 맞는 맞춤형 교육 제공
+
+## 📊 교육 과정별 세부 정보
+
+### Python 과정 (47개 파일)
+- **총 학습 기간**: 6-9개월 (초급 → 고급)
+- **커리큘럼**: Level 1(기초) → Level 10(실전 프로젝트)
+- **상세 내용**: [Python/README.md](Python/README.md) 참고
+
+### MySQL 과정 (10개 섹션)
+- **총 학습 기간**: 2-4주 (초급 과정)
+- **커리큘럼**: SELECT 기초 → 고급 쿼리 기법
+- **샘플 DB**: cardbdemo (7개 테이블, 4,000+ 라인)
+- **상세 내용**: [Mysql/README.md](Mysql/README.md) 참고
+
+## 🚀 빠른 시작
+
+### Python 학습 시작하기
+```bash
+# Python 폴더로 이동
+cd Python
+
+# README.md에서 학습 로드맵 확인
+# 각 폴더의 교안 파일(.py, .md)로 학습 시작
+```
+
+### MySQL 학습 시작하기
+```bash
+# Mysql 폴더로 이동
+cd Mysql
+
+# 샘플 데이터베이스 설치
+mysql -u root -p < cardbdemo.sql
+
+# 01Select.md부터 순차적으로 학습
+```
 
 ## 📞 연락처
 강의 문의 및 상담이 필요하시면 언제든지 연락주세요.
