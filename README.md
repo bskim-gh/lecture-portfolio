@@ -36,6 +36,7 @@ C 언어부터 Python, 데이터베이스까지 다양한 수준의 학습자를
 | 🐍 **Python 기초** | 초급~중급 | Python 3.13, Colab |
 | 🏗️ **객체지향** | 중급 | OOP, 디자인 패턴 |
 | 🕷️ **웹 크롤링** | 초급~중급 | BeautifulSoup, Selenium |
+| 🤖 **MCP 서버** | 중급 | FastMCP, Node.js, Cursor |
 | 📊 **Streamlit** | 중급 | 웹 앱 개발, 대시보드 |
 | 💼 **비개발자 Python** | 초급 | 업무 자동화 |
 | 🗄️ **MySQL/MariaDB** | 초급 | SQL, 데이터베이스 |
@@ -77,17 +78,29 @@ C 언어부터 Python, 데이터베이스까지 다양한 수준의 학습자를
   - 실전 예제 프로젝트 3개 (뉴스 수집, 가격 비교, 동적 페이지)
   - 법적/윤리적 고려사항 포함
 
-### 6. Streamlit 웹 애플리케이션
+### 6. MCP 서버 개발 (FastMCP & Node.js)
+- **대상**: AI 도구 개발에 관심 있는 학습자
+- **내용**: Python FastMCP와 Node.js로 MCP 서버 구축, Cursor AI 연동
+- **파일**: `Python_MCP/`
+- **특징**:
+  - **Python 방식**: FastMCP로 빠른 개발 (3개 섹션 + 2개 예제)
+  - **Node.js 방식**: 공식 MCP SDK 사용 (1개 완전 예제)
+  - MCP (Model Context Protocol) 개념 학습
+  - Cursor에서 사용 가능한 AI 도구 개발
+  - 파일 관리, 웹 검색 등 실용적 예제
+  - 12개 이상의 GitHub 참고 자료 포함
+
+### 7. Streamlit 웹 애플리케이션
 - **대상**: 웹 앱 개발에 관심 있는 학습자
 - **내용**: Streamlit을 활용한 대시보드 및 웹 앱 개발
 - **파일**: `Python/Python_streamlit/`
 
-### 7. 비개발 부서용 Python
+### 8. 비개발 부서용 Python
 - **대상**: 비개발 직무자
 - **내용**: 업무 자동화, 데이터 분석 기초
 - **파일**: `Python/Python_비개발부서용/`
 
-### 8. MySQL/MariaDB 데이터베이스
+### 9. MySQL/MariaDB 데이터베이스
 - **대상**: 데이터베이스 입문자
 - **내용**: SQL 기본 쿼리(SELECT, WHERE, JOIN 등), 데이터 조회 및 조작
 - **파일**: `Mysql/`
@@ -102,10 +115,16 @@ C 언어부터 Python, 데이터베이스까지 다양한 수준의 학습자를
 ### 프로그래밍 언어
 - 🔤 **C Language** - Visual Studio 2022
 - 🐍 **Python 3.13** - Google Colab, Cursor, VS Code
+- 🟢 **Node.js 18+** - JavaScript/TypeScript
 
-### 웹 크롤링 & 데이터
+### 웹 크롤링 & AI
 - 🕷️ **BeautifulSoup** - HTML/XML 파싱
 - 🌐 **Selenium** - 동적 웹 페이지 자동화
+- 🤖 **FastMCP** - Python MCP 서버 개발
+- 🟢 **Node.js MCP SDK** - JavaScript MCP 서버
+- 🔧 **Cursor AI** - AI 도구 연동
+
+### 데이터 분석 & 시각화
 - 📊 **Pandas, NumPy** - 데이터 분석
 - 📈 **Matplotlib, Plotly** - 데이터 시각화
 
@@ -144,6 +163,19 @@ C 언어부터 Python, 데이터베이스까지 다양한 수준의 학습자를
   - Week 4-5: Selenium 기초 및 실습
   - Week 6: 실전 프로젝트
 
+### MCP 서버 개발 과정
+- **개발 환경**: Windows 10/11 + Python 3.13 / Node.js 18+ + Cursor
+- **총 학습 기간**: 1-2주 (중급)
+- **커리큘럼**: MCP 기초 → Python/Node.js 서버 개발 → Cursor 연동 → 실전 예제
+- **상세 내용**: [Python_MCP/README.md](Python_MCP/README.md) 참고
+- **주요 내용**:
+  - MCP (Model Context Protocol) 이해
+  - **Python**: FastMCP로 빠른 서버 구축
+  - **Node.js**: 공식 MCP SDK 사용
+  - Cursor AI에 연동 (Python + Node.js 통합 설정)
+  - 파일 관리, 웹 검색 도구 개발
+  - 12개 이상의 GitHub 참고 자료
+
 ### MySQL 과정
 - **개발 환경**: Windows 10/11 + MySQL/MariaDB
 - **총 학습 기간**: 2-4주 (초급 과정)
@@ -162,8 +194,9 @@ C 언어부터 Python, 데이터베이스까지 다양한 수준의 학습자를
 ### 초급자 (Python 기초 완료)
 1. 🏗️ **Python 객체지향**
 2. 🕷️ **웹 크롤링**
-3. 📊 **Streamlit**
-4. 🗄️ **MySQL/MariaDB**
+3. 🤖 **MCP 서버**
+4. 📊 **Streamlit**
+5. 🗄️ **MySQL/MariaDB**
 
 ### 중급자 (심화 학습)
 - 실전 프로젝트 수행
